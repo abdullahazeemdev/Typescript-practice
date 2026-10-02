@@ -97,3 +97,25 @@
 
 // console.log(id)
 
+// ============= Literal Types============
+
+// let color: "green" | "yellow" | "black";
+
+// color = "green"
+
+// =========== function parameters ===========
+
+// function user(name : string){
+//     console.log(`Hello ${name}`)
+// }
+
+// console.log(user("abdullah"))
+
+
+// ========== function return type =============== 
+
+function add(a:number,b:number):number{
+    return a + 2
+}
+
+console.log(add(20,20))

@@ -57,8 +57,23 @@
 // console.log(user)
 // =========== union ==============
 // multi type variable accept kar sakta ha 
-let id;
-id = 10;
-id = "ponka";
-id = true;
-console.log(id);
+// let id : string | number | boolean ;
+// id = 10;
+// id = "ponka"
+// id = true
+// console.log(id)
+// ============= Literal Types============
+// let color: "green" | "yellow" | "black";
+// color = "green"
+// =========== function parameters ===========
+// function user(name : string){
+//     console.log(`Hello ${name}`)
+// }
+// console.log(user("abdullah"))
+// ========== function return type =============== 
+// function add(a, b) {
+//     return a + b;
+// }
+// console.log(add(20, 20));
+
+// ========= void ===============
