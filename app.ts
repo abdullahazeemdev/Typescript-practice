@@ -114,8 +114,8 @@
 
 // ========== function return type =============== 
 
-function add(a:number,b:number):number{
-    return a + 2
-}
+// function add(a:number,b:number):number{
+//     return a + b
+// }
 
-console.log(add(20,20))
+// console.log(add(20,20))
