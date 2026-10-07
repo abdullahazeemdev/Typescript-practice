@@ -244,6 +244,35 @@
 
 // console.log(id)
 
+// ============= function type ===========
+
+// type MathFunction = (a:number , b:number) => number;
+
+// const add:MathFunction = (a,b) =>{
+//      return a + b;
+// }
+
+// console.log(add(389,11))
 
 
+// ============= enum ===================
 
+// enum Role {
+//     admin,
+//     user,
+//     guest,
+// }
+
+// let user1: Role = Role.user;
+
+// let user2: Role = Role.admin;
+
+// console.log(Role[user1],Role[user2])
+
+// ======= type assertion =============
+
+let value : unknown = "abdullah";
+
+let name = value as string;
+
+console.log(name.toUpperCase())

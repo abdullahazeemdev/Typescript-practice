@@ -1,5 +1,4 @@
 // let a = "abdullah";
-export {};
 // let arr:[number,string] = [1,"azeem"]
 // function add(a: number, b: number): number {
 //    return a + b;
@@ -163,3 +162,23 @@ export {};
 // type ID = string | number;
 // let id : ID = Date.now()
 // console.log(id)
+// ============= function type ===========
+// type MathFunction = (a:number , b:number) => number;
+// const add:MathFunction = (a,b) =>{
+//      return a + b;
+// }
+// console.log(add(389,11))
+// ============= enum ===================
+// enum Role {
+//     admin,
+//     user,
+//     guest,
+// }
+// let user1: Role = Role.user;
+// let user2: Role = Role.admin;
+// console.log(Role[user1],Role[user2])
+// ======= type assertion =============
+let value = "abdullah";
+let name = value;
+console.log(name.toUpperCase());
+export {};
