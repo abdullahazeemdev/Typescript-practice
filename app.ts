@@ -187,7 +187,6 @@
 //   },
 // ];
 
-
 // console.log(info)
 
 //========== unknown =========
@@ -209,12 +208,11 @@
 // }
 
 // try {
-//    error("Kuch galat ho gaya hai!"); 
+//    error("Kuch galat ho gaya hai!");
 // } catch (err:any) {
 //    console.warn("Mera custom error handle ho gaya:", err.message);
 // }
 // console.log("Program crash nahi hua, aage chal raha hai!");
-
 
 // ============== type alias ==================
 
@@ -237,7 +235,6 @@
 
 // console.log([user1,user2])
 
-
 // type ID = string | number;
 
 // let id : ID = Date.now()
@@ -253,7 +250,6 @@
 // }
 
 // console.log(add(389,11))
-
 
 // ============= enum ===================
 
@@ -271,8 +267,79 @@
 
 // ======= type assertion =============
 
-let value : unknown = "abdullah";
+// let value : unknown = "abdullah";
 
-let name = value as string;
+// let name = value as string;
 
-console.log(name.toUpperCase())
+// console.log(name.toUpperCase())
+
+// =================================== Class & Object ================================================
+
+// Class kiya huti ha ?
+
+// class ak blue print ha jiska throw ham object create karta ha
+
+// class Student{
+//     name:string ="Abdullah Azeem";
+//     age:number= 18 ;
+
+//     introduce():void{
+//         console.log(`my name is ${this.name}`);
+//         console.log(`i am ${this.age} year old`);
+//     }
+// }
+
+// const student1 = new Student();
+
+// student1.introduce()
+
+// class Car {
+//   brand: string = "Toyota";
+//   model: string = "Corolla";
+//   year: number = 2022;
+//   available: boolean = true;
+
+//   showDetail() {
+//     console.log(this.brand);
+//     console.log(this.model);
+//     console.log(this.year);
+//     console.log(this.available);
+//   }
+// }
+
+// let car1 = new Car();
+
+// car1.showDetail()
+
+// class Car {
+//   public brand: string;
+//   public model: string;
+//   public year: number;
+
+//   constructor(brand: string, model: string, year: number) {
+//     this.brand = brand
+//     this.model = model
+//     this.year = year
+//   }
+// }
+
+// let car1 = new Car("Toyota", "Carolla", 2022);
+// let car2 = new Car("Honda", "Civic", 2024);
+
+// console.log([car1,car2])
+
+
+// class Obj{
+//     public OwnerName : string;
+//     private balance : number;
+//     public deposit:number;
+//     public currentBalance:number
+
+//     constructor(n:string,b:number,d:number,c:number){
+//      this.OwnerName = n;
+//      this.balance = b
+
+//      deposit(balance:Number)
+//     }
+
+// }
